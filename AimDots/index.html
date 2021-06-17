@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="root">
+        <div class="aimlab">
+            <button id="start" class="start">START</button>
+            <button id="target" class="target target--disable target__medium"></button>
+            <div class="shootingRange">
+                <nav class="navigation">
+                    <div class="settings">
+                        <div>
+                            <label>Select difficulty: </label>
+                            <select name="difficulty" id="difficulty" class="difficulty">
+                                <option value="easy">Easy</option>
+                                <option value="medium" selected>Medium</option>
+                                <option value="hard">Hard</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Select speed: </label>
+                            <select name="speed" id="speed" class="speed">
+                                <option value="5000">Slow</option>
+                                <option value="2500" selected>Moderate</option>
+                                <option value="1250">Fast</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="stats">
+                        <span class="score stat"></span>
+                    </div>
+                </nav>
+                <div class="verticalLine"></div>
+                <div class="horizontalLine"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

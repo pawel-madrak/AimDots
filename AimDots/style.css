@@ -1,0 +1,116 @@
+body {
+    margin: 0px 0px 0px 0px;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    height: 40px;
+}
+
+.start {
+    position: fixed;
+    transform: translate3d(-50%, -50% ,0);
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+}
+
+.aimlab {
+    background-color: white;
+    height: 100%;
+   
+}
+.start{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    font-size: 20px;
+    border-width: 0px;
+}
+
+.start--enable{
+    
+}
+
+.start--disable{
+    display: none;
+}
+.target--enable {
+    position: absolute;
+    display: inline;
+    z-index: 2;
+    border-radius: 50%;
+    background-color: red;
+    border-width: 0px;
+
+}
+
+.target--disable {
+display: none;
+}
+
+.target__easy {
+    width: 75px;
+    height: 75px;
+}
+
+.target__medium {
+    width: 50px;
+    height: 50px;
+}
+.target__hard {
+    width: 25px;
+    height: 25px;
+}
+
+.stats{
+    display: flex;
+    width: 100px;
+    margin-right: 0px;
+}
+.shootingRange{
+
+  position: absolute;
+    transform: translate3d(-50%, -50% ,0);
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+}
+
+.verticalLine{
+    position: fixed;
+    transform: translate3d(-50%, -50% ,0);
+    top: 50%;
+    left: 50%;
+    height: 95%;
+    width: 5px;
+    background-color: white;
+}
+.horizontalLine{
+    position: fixed;
+    transform: translate3d(-50%, -50% ,0);
+    top: 50%;
+    left: 50%;
+    height: 5px;
+    width: 95%;
+    background-color: white;
+}
+.speed{
+    background-color: orange;
+}
+.difficulty{
+    background-color: orange; 
+}
+
+.settings{
+    margin-left: 20px;
+    justify-content: space-between;
+    width: 400px;
+    display: flex;
+}
